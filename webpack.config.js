@@ -83,7 +83,7 @@ module.exports = {
   },
 
   devServer: {
-    port: 3000,
+    port: process.env.PORT,
     compress: true,
     hot: !isProd,
   },
