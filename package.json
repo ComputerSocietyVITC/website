@@ -36,7 +36,10 @@
     "terser-webpack-plugin": "^1.3.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2"
+    "webpack-dev-server": "^3.11.0"
   },
-  "browserslist": "> 0.25%, not dead"
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "start": "^5.1.0"
+  }
 }
