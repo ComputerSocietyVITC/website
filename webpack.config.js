@@ -11,7 +11,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const SRC = "src";
 const isProd = process.env.NODE_ENV === "production";
 var server_port = process.env.YOUR_PORT || process.env.PORT || 5000;
-var server_host = process.env.YOUR_HOST||"Localhost" || "0.0.0.0" ||"Localhost";
+var server_host = process.env.YOUR_HOST|| "0.0.0.0" ;
 
 /* Dynamically add pug files */
 
