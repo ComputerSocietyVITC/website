@@ -1,3 +1,4 @@
+
 const path = require("path");
 const fs = require("fs");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -8,10 +9,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-const SRC = "src";
-const isProd = process.env.NODE_ENV === "production";
 var server_port = process.env.YOUR_PORT || process.env.PORT || 5000;
 var server_host = process.env.YOUR_HOST || "0.0.0.0" ;
+const SRC = "src";
+const isProd = process.env.NODE_ENV === "production";
 
 /* Dynamically add pug files */
 
