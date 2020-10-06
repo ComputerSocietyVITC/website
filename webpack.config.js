@@ -10,7 +10,7 @@ const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 var server_port = process.env.YOUR_PORT || process.env.PORT || 5000;
-var server_host = process.env.YOUR_HOST || "0.0.0.0" ;
+var server_host = process.env.YOUR_HOST|| "localhost" || "0.0.0.0" ;
 const SRC = "src";
 const isProd = process.env.NODE_ENV === "production";
 
